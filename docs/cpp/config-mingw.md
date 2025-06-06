@@ -1,9 +1,5 @@
 ---
-Order: 3
-Area: cpp
-TOCTitle: GCC on Windows
 ContentId: 7efec972-6556-4526-8aa8-c73b3319d612
-PageTitle: Get Started with C++ and MinGW-w64 in Visual Studio Code
 DateApproved: 12/14/2023
 MetaDescription: Configuring the C++ extension in Visual Studio Code to target g++ and gdb on a MinGW-w64 installation
 ---
@@ -418,7 +414,7 @@ The extension uses the `compilerPath` setting to infer the path to the C++ stand
 
 The C/C++ extension attempts to populate `compilerPath` with a default compiler based on what it finds on your system. The extension looks in several common compiler locations but will only automatically select one that is in either one of the "Program Files" folders or whose path is listed in the PATH environment variable. If the Microsoft Visual C++ compiler can be found it will be selected, otherwise it will select a version of gcc, g++, or clang.
 
-If you have more than one compiler installed, you might need to change `compilerPath` to match the preferred compiler for your project. You may also use the **C/C++: Select InteliSense Configuration...** command in the Command Palette to select one of the compilers that the extension detected.
+If you have more than one compiler installed, you might need to change `compilerPath` to match the preferred compiler for your project. You may also use the **C/C++: Select IntelliSense Configuration...** command in the Command Palette to select one of the compilers that the extension detected.
 
 ## Troubleshooting
 
