@@ -121,25 +121,26 @@
       ["Overview", "/docs/copilot/overview"],
       ["Setup", "/docs/copilot/setup"],
       ["Quickstart", "/docs/copilot/getting-started"],
-      ["Code Completions", "/docs/copilot/ai-powered-suggestions"],
       ["", "", {
         "name": "Chat",
         "area": "copilot/chat",
         "topics": [
-          ["Overview", "/docs/copilot/chat/copilot-chat"],
-          ["Tutorial", "/docs/copilot/chat/getting-started-chat"],
+          ["Chat Overview", "/docs/copilot/chat/copilot-chat"],
+          ["Chat Tutorial", "/docs/copilot/chat/getting-started-chat"],
+          ["Manage Context", "/docs/copilot/chat/copilot-chat-context"],
+          ["Chat Modes", "/docs/copilot/chat/chat-modes"],
           ["Ask Mode", "/docs/copilot/chat/chat-ask-mode"],
           ["Edit Mode", "/docs/copilot/chat/copilot-edits"],
           ["Agent Mode", "/docs/copilot/chat/chat-agent-mode"],
           ["MCP Servers", "/docs/copilot/chat/mcp-servers"],
           ["Inline Chat", "/docs/copilot/chat/inline-chat"],
-          ["Chat Context", "/docs/copilot/chat/copilot-chat-context"],
           ["Prompt Engineering", "/docs/copilot/chat/prompt-crafting"]
         ]
       }
       ],
+      ["Code Completions", "/docs/copilot/ai-powered-suggestions"],
       ["Smart Actions", "/docs/copilot/copilot-smart-actions"],
-      ["Personalize Copilot", "/docs/copilot/copilot-customization"],
+      ["Customize Copilot", "/docs/copilot/copilot-customization"],
       ["Language Models", "/docs/copilot/language-models"],
       ["", "", {
         "name": "Guides",
@@ -152,7 +153,7 @@
       }
       ],
       ["Tips and Tricks", "/docs/copilot/copilot-tips-and-tricks"],
-      ["Copilot Extensibility", "/docs/copilot/copilot-extensibility-overview"],
+      ["AI Extensibility", "/docs/copilot/copilot-extensibility-overview"],
       ["FAQ", "/docs/copilot/faq"],
       ["", "", {
         "name": "Reference",
@@ -191,7 +192,8 @@
       ["T-SQL", "/docs/languages/tsql"],
       ["C#", "/docs/languages/csharp"],
       [".NET", "/docs/languages/dotnet"],
-      ["Polyglot", "/docs/languages/polyglot"]
+      ["Polyglot", "/docs/languages/polyglot"],
+      ["Swift", "/docs/languages/swift"]
     ]
   },
   {
